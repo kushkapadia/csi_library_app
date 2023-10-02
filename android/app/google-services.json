@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "903270724046",
+    "project_id": "djcsi-library",
+    "storage_bucket": "djcsi-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903270724046:android:70fed0e393ed54be6fbb9f",
+        "android_client_info": {
+          "package_name": "com.example.csi_library"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903270724046-4fv7vknegc9o1gdpmbr4tn6j3m81u05f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVYyohlL6i8DDyAdv43AQouquzwTyNFQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903270724046-4fv7vknegc9o1gdpmbr4tn6j3m81u05f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
