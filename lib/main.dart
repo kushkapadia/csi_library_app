@@ -2,13 +2,14 @@ import 'package:csi_library/screens/home.dart';
 import 'package:csi_library/screens/login.dart';
 import 'package:csi_library/screens/register.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
+import "package:firebase_core/firebase_core.dart";
+import 'package:csi_library/firebase_options.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 // ...
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
